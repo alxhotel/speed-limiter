@@ -17,7 +17,7 @@ npm install speed-limiter
 ```js
 const { ThrottleGroup } = require('speed-limiter')
 
-const rate = 1 * 1024 * 1024 // 1 MB/s
+const rate = 200 * 1000 // 200 KB/s
 const throttleGroup = new ThrottleGroup({ rate })
 ```
 

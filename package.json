@@ -4,13 +4,17 @@
   "description": "Throttle the speed of streams",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "npm run test:lint && npm run test:tape",
+    "test:lint": "standard",
+    "test:tape": "tape test/*.js"
   },
   "dependencies": {
     "limiter": "^1.1.5"
   },
   "devDependencies": {
-    "standard": "^16.0.3"
+    "async": "^3.2.0",
+    "standard": "^16.0.3",
+    "tape": "^5.2.2"
   },
   "repository": {
     "type": "git",
