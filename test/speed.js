@@ -74,6 +74,7 @@ test('Throttle should block everything if rate is zero', (t) => {
 
   setTimeout(() => {
     t.equal(++order, 1)
-    throttle.setGroupRate(10 * 1000)
+    const group = throttle.getGroup()
+    group.setRate(10 * 1000)
   }, 2000)
 })
