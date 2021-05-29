@@ -14,6 +14,9 @@
   },
   "devDependencies": {
     "async": "^3.2.0",
+    "null-duplex-stream": "^0.0.3",
+    "random-bytes-readable-stream": "^2.1.0",
+    "speedometer": "^1.1.0",
     "standard": "^16.0.3",
     "tape": "^5.2.2"
   },
