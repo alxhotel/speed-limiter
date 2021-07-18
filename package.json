@@ -1,6 +1,6 @@
 {
   "name": "speed-limiter",
-  "version": "0.2.4",
+  "version": "1.0.0",
   "description": "Throttle the speed of streams",
   "main": "index.js",
   "scripts": {
