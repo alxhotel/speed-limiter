@@ -93,7 +93,7 @@ test('Throttle must throw if incorrect chunksize', (t) => {
   })
 
   t.throws(() => {
-    throttle.getGroup().setChunksize(Inifnity)
+    throttle.getGroup().setChunksize(Infinity)
   })
 
   t.throws(() => {
