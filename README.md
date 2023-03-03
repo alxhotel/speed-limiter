@@ -1,7 +1,8 @@
 # speed-limiter
 
 [![NPM Version](https://img.shields.io/npm/v/speed-limiter.svg)](https://www.npmjs.com/package/speed-limiter)
-[![Build Status](https://img.shields.io/github/workflow/status/alxhotel/speed-limiter/ci.yml?branch=master)](https://github.com/alxhotel/speed-limiter/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/alxhotel/speed-limiter/ci.yml?branch=master)](https://github.com/alxhotel/speed-limiter/actions)
+
 Throttle the speed of streams in NodeJS
 
 ## Installation
